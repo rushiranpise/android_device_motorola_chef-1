@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common aicp stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
@@ -54,7 +54,7 @@ TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
 
 # Device identifiers
 PRODUCT_DEVICE := chef
-PRODUCT_NAME := lineage_chef
+PRODUCT_NAME := aicp_chef
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Motorola One Power
 PRODUCT_MANUFACTURER := Motorola
@@ -66,3 +66,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="chef_sprout-user 10 QPTS30.6
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := motorola/chef_retail/chef_sprout:10/QPTS30.61-18-12/65302:user/release-keys
+
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Rushi Ranpise (rushi24)"
