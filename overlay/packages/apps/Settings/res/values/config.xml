@@ -23,6 +23,7 @@
          3 = right side
     -->
     <integer name="config_fingerprintSensorLocation">0</integer>
+    <string name="build_maintainer_summary">Rushi Ranpise</string>
 
 </resources>
 
