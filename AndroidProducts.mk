@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_chef.mk
+    $(LOCAL_DIR)/dot_chef.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_chef-user \
-    evolution_chef-userdebug \
-    evolution_chef-eng
+    dot_chef-user \
+    dot_chef-userdebug \
+    dot_chef-eng
 
