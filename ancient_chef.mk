@@ -14,9 +14,20 @@
 # limitations under the License.
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common Ancient stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+
+ANCIENT_OFFICIAL := true
+ANCIENT_WEEABO := true
+
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
+# GApps
+ANCIENT_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
@@ -54,7 +65,7 @@ TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
 
 # Device identifiers
 PRODUCT_DEVICE := chef
-PRODUCT_NAME := lineage_chef
+PRODUCT_NAME := ancient_chef
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Motorola One Power
 PRODUCT_MANUFACTURER := Motorola
