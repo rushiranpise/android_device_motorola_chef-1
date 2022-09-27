@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
 ANCIENT_OFFICIAL := true
-ANCIENT_WEEABO := true
+ANCIENT_WEEABO := false
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -30,7 +30,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_ENABLE_BLUR := true
 
 # GApps
-ANCIENT_GAPPS := true
+ANCIENT_GAPPS := false
 TARGET_GAPPS_ARCH := arm64
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
