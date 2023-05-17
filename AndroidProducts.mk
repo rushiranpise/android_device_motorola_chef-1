@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_chef.mk
+    $(LOCAL_DIR)/ancient_chef.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_chef-user \
-    lineage_chef-userdebug \
-    lineage_chef-eng
+    ancient_chef-user \
+    ancient_chef-userdebug \
+    ancient_chef-eng
 
