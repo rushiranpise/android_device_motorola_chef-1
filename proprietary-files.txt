@@ -7,6 +7,19 @@ vendor/etc/acdbdata/Hdmi_cal.acdb
 vendor/etc/acdbdata/Headset_cal.acdb|e80ccc45897a0886ca25d3562c09efd052d44381
 vendor/etc/acdbdata/Speaker_cal.acdb
 
+# Audio - Prebuilt
+vendor/lib/hw/audio.primary.sdm660.so
+vendor/lib/vndk/libtinyalsa.so
+vendor/lib/libmotaudioutils.so
+vendor/lib/libsensorndkbridge.so
+vendor/lib64/libsensorndkbridge.so
+vendor/lib/libtinycompress_vendor.so
+# vendor/lib/libunshorten.so
+
+# Audio - Soundfx
+vendor/lib/soundfx/libmmieffectswrapper.so
+vendor/lib/soundfx/libspeakerbundle.so
+
 # Camera
 vendor/etc/camera/bokeh_preview.cfg
 vendor/etc/camera/camera_config.xml

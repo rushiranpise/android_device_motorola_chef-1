@@ -35,6 +35,9 @@ AB_OTA_PARTITIONS += \
 TARGET_BOARD_INFO_FILE := device/motorola/chef/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := chef
 
+# Audio
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 
