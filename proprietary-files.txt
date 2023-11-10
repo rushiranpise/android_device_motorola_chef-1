@@ -1,11 +1,45 @@
 # Audio ACDB
-vendor/etc/acdbdata/Bluetooth_cal.acdb|de32f236e41af911ffaa7a52018eb5e1556936c1
+vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/General_cal.acdb
 vendor/etc/acdbdata/Global_cal.acdb
-vendor/etc/acdbdata/Handset_cal.acdb|87df3deddcf8a044b1dbc30544739a1ff1609cad
+vendor/etc/acdbdata/Handset_cal.acdb
 vendor/etc/acdbdata/Hdmi_cal.acdb
-vendor/etc/acdbdata/Headset_cal.acdb|e80ccc45897a0886ca25d3562c09efd052d44381
+vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
+
+# Audio - Prebuilt
+vendor/lib/hw/audio.primary.sdm660.so
+vendor/lib/vndk/libtinyalsa.so
+vendor/lib/libmotaudioutils.so
+vendor/lib/libsensorndkbridge.so
+vendor/lib/libtinycompress_vendor.so
+vendor/lib/libunshorten.so
+vendor/lib64/vndk/libtinyalsa.so
+vendor/lib64/libsensorndkbridge.so
+vendor/lib64/libtinycompress.so
+
+# Audio - Soundfx
+vendor/lib/soundfx/libmmieffectswrapper.so
+vendor/lib/soundfx/libspeakerbundle.so
+
+# MotoDolbyV3
+-app/MotoDolbyV3/MotoDolbyV3.apk
+-priv-app/daxService/daxService.apk
+etc/permissions/com.motorola.dolby.dolbyui.features.xml
+etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml
+product/etc/permissions/com.dolby.daxservice.xml
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
+vendor/etc/dolby/dax-default.xml
+vendor/lib/libdapparamstorage_ds1se.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/vendor.dolby.hardware.dms@1.0.so
+vendor/lib/soundfx/libswdap_ds1se.so
+vendor/lib64/libdapparamstorage_ds1se.so
+vendor/lib64/libdlbdsservice_ds1se.so
+vendor/lib64/soundfx/libswdap_ds1se.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0.so
 
 # Camera
 vendor/etc/camera/bokeh_preview.cfg
