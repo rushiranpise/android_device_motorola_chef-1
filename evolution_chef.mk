@@ -16,7 +16,7 @@
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
@@ -60,7 +60,7 @@ PRODUCT_PACKAGES += \
 
 # Device identifiers
 PRODUCT_DEVICE := chef
-PRODUCT_NAME := lineage_chef
+PRODUCT_NAME := evolution_chef
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := motorola one power
 PRODUCT_MANUFACTURER := motorola
