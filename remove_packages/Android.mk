@@ -5,28 +5,40 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
+    AndroidAutoStubPrebuilt \
+    AiWallpapers \
+    BetterBugStub \
     CalculatorGooglePrebuilt \
     CalendarGooglePrebuilt \
-    Chrome \
     Chrome-Stub \
+    Chrome \
     Drive \
     GoogleCamera \
     GoogleContacts \
+    GoogleFeedback \
     GoogleTTS \
+    KidsSupervisionStub \
+    MaestroPrebuilt \
     Maps \
     Music \
     MusicFX \
+    OdadPrebuilt \
     Photos \
     PixelLiveWallpaperPrebuilt \
     PrebuiltBugle \
     PrebuiltDeskClockGoogle \
     PrebuiltGmail \
+    QuickAccessWallet \
     RecorderPrebuilt \
     SafetyHubPrebuilt \
-    talkback \
+    SoundPickerPrebuilt \
+    TagGoogle \
+    TurboPrebuilt \
+    WallpaperEmojiPrebuilt \
     WellbeingPrebuilt \
     YouTube \
-    YouTubeMusicPrebuilt
+    YouTubeMusicPrebuilt \
+    talkback
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
